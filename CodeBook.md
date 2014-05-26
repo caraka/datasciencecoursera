@@ -42,6 +42,8 @@ While not clear in the spec, the nature of this step was to make the variable la
 
 The gsub() and tolower() functions in R were used for this task.
 
+For example, the variable fBodyAcc-std()-X has been renamed fbodyaccstdx.
+
 ## Step 5
 
 A second, tidy data set that only includes the means for each subject/activity was generated in R using the aggregate.data.frame() function on the $subject and $activitydesc variables.
